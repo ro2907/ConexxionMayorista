@@ -83,7 +83,7 @@ function enviarPedido() {
   const pedidoWpp2 = carritoWpp.join("%20");
   const totalWpp = total.toFixed(2).toString().replace(".", "");
   console.log(pedidoWpp2);
-  pedidoAEnviar = `https://wa.me/5403883108455/?text=Hola%20CONEXXIÓN%20mi%20pedido%20Id:432${totalWpp}127%20es:%20${pedidoWpp2}%20Gracias.`;
+  pedidoAEnviar = `https://wa.me/5493884475145/?text=Hola%20CONEXXIÓN%20mi%20pedido%20Id:432${totalWpp}127%20es:%20${pedidoWpp2}%20Gracias.`;
   console.log(pedidoAEnviar);
   window.location.href = pedidoAEnviar;
 }
