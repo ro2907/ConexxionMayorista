@@ -28,7 +28,7 @@ function evenlisteners() {
 
 function cargarProductos() {
   vaciarMain();
-  fetch("articulos.json")
+  fetch("https://apiconexxion-default-rtdb.firebaseio.com/articulos.json")
     .then((respuesta) => respuesta.json())
     .then((productos) => {
       cantidadProductos = 0;
