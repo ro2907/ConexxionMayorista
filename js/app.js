@@ -67,6 +67,7 @@ function cargarProductos() {
                     <div class="card2 shadow rounded cardExpan contenedor">
                         <div class="imgBox">
                             <img src="${producto.imagen}" alt="">
+                            <div class="marcaAgua"><div  class="marcaLogo">CONEXXIÓN</div><span class="marcaLogoMayorista">Mayorista</span></div>
                         </div>
                         <div class="detalle">
                             <div class="title">

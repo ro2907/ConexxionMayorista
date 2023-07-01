@@ -30,6 +30,7 @@ function carritoHTML() {
             style="height: 150px; width: 150px"
             alt=""
           />
+          <div class="marcaAgua"><div  class="marcaLogo">CONEXXIÓN</div><span class="marcaLogoMayorista">Mayorista</span></div>
         </div>
         <div class="detalle detalleCarrito flex">
           <div>
